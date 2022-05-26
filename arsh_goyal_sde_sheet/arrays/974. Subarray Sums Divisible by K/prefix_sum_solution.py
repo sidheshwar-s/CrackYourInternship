@@ -1,4 +1,4 @@
-class Solution:
+gclass Solution:
     def subarraysDivByK(self, nums: List[int], k: int) -> int:
         lookup = defaultdict(int)
         rolling_sum = 0
